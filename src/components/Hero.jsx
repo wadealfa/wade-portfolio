@@ -29,7 +29,7 @@ function Hero() {
     <div className="p-2">
       <div>
         {technologies.map((tech, index) => (
-          <div key={index}>
+          <div id="my skills" key={index}>
             <h2 className="text-3xl font-bold text-[#fc1a0e]">{tech.title}</h2>
             <ul className="grid grid-cols-2 md:flex ">
               {tech.skills.map((skill, index) => (
@@ -47,7 +47,7 @@ function Hero() {
       <div>
         <h2 className="text-3xl font-bold text-[#fc1a0e] ">Projects</h2>
 
-        <div>
+        <div id="projects">
           <h3 className="text-2xl font-semibold p-1 underline decoration-4 decoration-dashed italic text-[#00ff]">
             Feartured Projects
           </h3>
@@ -81,7 +81,7 @@ function Hero() {
               ensuring seamless user experience across all devices.
             </li>
 
-            <a className="block py-2 px-5"
+            <a className="block py-6 px-9 underline text-amber-500 font-semibold italic"
               href="https://www.megacashluckybox.com/"
               target="blank">
               MegaCashBox.com &rarr; 🕸

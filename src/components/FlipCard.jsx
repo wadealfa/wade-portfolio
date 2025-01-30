@@ -71,7 +71,7 @@ function FlipCard({isFlipped, setIsFlipped}) {
           </div>
         </div>
         <div className="absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]">
-        <div className="w-full h-full    bg-cover   bg-center bg-no-repeat   rounded-xl shadow-lg  p-20 text-white text-center"
+        <div className="w-full h-full    bg-cover   bg-center bg-no-repeat   rounded-xl shadow-lg  p-12  text-white text-center"
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/image5.png')`,
         }}
