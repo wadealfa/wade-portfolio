@@ -3,11 +3,14 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-body{
-    color:white;
-    font-size: 18px;
+body {
+  color: white;
+  font-size: 18px;
 
-
+  background-image: url("image1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
