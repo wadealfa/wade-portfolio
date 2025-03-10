@@ -36,11 +36,7 @@ function Navigation() {
         }`}>
         <ul className=" hidden md:flex p-4 flex-row justify-between ">
           {navItems.map((navItem, i) => (
-            <li
-              key={i}
-              className="cursor-pointer">
-              {navItem}
-            </li>
+            <a key={i}  href={`#${navItem}`}> <li className=" border-2 py-1 px-2 italic font-bold  rounded-2xl">{navItem}</li></a>
           ))}
         </ul>
         <ul className=" md:hidden   flex p-2 justify-center w-fulltext-center gap-7">

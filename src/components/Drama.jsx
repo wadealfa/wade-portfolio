@@ -15,7 +15,7 @@ function Drama() {
   );
   return (
     <div id="about" className="p-4">
-      <FlipCard isFlipped={isFlipped} setIsFlipped={setIsFlipped} />
+      <FlipCard />
     </div>
   );
 }
